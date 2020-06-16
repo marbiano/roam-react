@@ -1,0 +1,39 @@
+{
+  "name": "roam-web",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "",
+  "scripts": {
+    "clean": "lerna clean",
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "dev": "lerna run dev --parallel",
+    "build": "lerna run build --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marbiano/roam-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marbiano/roam-web/issues"
+  },
+  "homepage": "https://github.com/marbiano/roam-web#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "@types/uuid": "^8.0.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "jest": "^26.0.1",
+    "lerna": "^3.22.1",
+    "microbundle": "^0.12.0-next.9",
+    "prettier": "^2.0.5",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5",
+    "uuid": "^8.1.0"
+  }
+}
